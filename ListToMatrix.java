@@ -7,7 +7,7 @@ public class ListToMatrix {
         int n = sc.nextInt();
         int node[] = new int[n];
         int k[] = new int[n];
-        int adja_list[][] = new int[n][100];
+        int adja_list[][] = new int[n][n];
 
         for (int i=0; i<n; i++){
             node[i] = sc.nextInt();
