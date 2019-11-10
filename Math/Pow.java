@@ -1,6 +1,6 @@
 public class Pow {
     long MOD;
-    public long power(long x, long n){  // faster than Math.pow
+    public long power(long x, long n){  // faster than Math.pow　O(logN)
         long sum = 1;
         while (n>0){
             if ((n&1)==1){
@@ -9,8 +9,6 @@ public class Pow {
             }
             x *= x;
             x %= MOD;
-            if (sum < 0) sum += MOD;
-            if (x < 0) x += MOD;
             n>>=1;
         }
         return sum%MOD;
