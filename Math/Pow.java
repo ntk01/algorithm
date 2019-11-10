@@ -1,6 +1,6 @@
 public class Pow {
     long MOD;
-    public long power(long x, long n){  // faster than Math.pow　O(logN)
+    public long power(long x, long n){  // 繰り返し二乗法によるべき乗計算。O(logN)。
         long sum = 1;
         while (n>0){
             if ((n&1)==1){
