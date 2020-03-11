@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 import java.util.Scanner;
 
 
-public class Bfs{
+public class BFS{
     static Scanner sc = new Scanner(System.in);
     static int n = sc.nextInt();
     static int[] d = new int[n];
