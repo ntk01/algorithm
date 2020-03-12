@@ -44,6 +44,5 @@ public class Knapsack {
         System.out.print("DP table:\n"+sb.toString());
 
         System.out.print("ans:\n"+dp[n][w]);
-
     }
 }
