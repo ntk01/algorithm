@@ -8,11 +8,17 @@ import java.util.Scanner;
 
 
 public class BFS{
-    static Scanner sc = new Scanner(System.in);
-    static int n = sc.nextInt();
-    static int[] d = new int[n];
-    static List<Integer>[] list = new ArrayList[n];
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] d = new int[n];
+    List<Integer>[] list = new ArrayList[n];
+
     public static void main(String[] args){
+
+        new BFS().run();
+    }
+
+    void run() {
         for (int i=0; i<n; i++) list[i] = new ArrayList<>();
         for (int i=0; i<n; i++){
             int t = sc.nextInt()-1;
@@ -28,12 +34,13 @@ public class BFS{
 
         for (int i=0; i<n; i++){
             System.out.print(i+1+" ");
-            System.out.println(d[i]);
+            System.out.println("dist: "+d[i]);
         }
+
 
     }
 
-    public static void bfs(int s){
+    void bfs(int s){
         Queue<Integer> queue = new ArrayDeque<>();
         queue.add(s);
         while (!queue.isEmpty()){
