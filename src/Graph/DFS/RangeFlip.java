@@ -1,5 +1,7 @@
 //https://atcoder.jp/contests/agc043/tasks/agc043_a
 
+package Graph.DFS;
+
 import java.io.PrintWriter;
 import java.util.*;
 
