@@ -1,3 +1,7 @@
+//https://atcoder.jp/contests/agc031/tasks/agc031_a
+
+package AssociativeArray;
+
 import java.io.PrintWriter;
 import java.util.*;
 
