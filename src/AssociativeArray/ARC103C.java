@@ -1,3 +1,7 @@
+//https://atcoder.jp/contests/arc103/tasks/arc103_a
+
+package AssociativeArray;
+
 import java.io.PrintWriter;
 import java.util.*;
 
