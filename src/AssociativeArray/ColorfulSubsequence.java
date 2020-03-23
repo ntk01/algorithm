@@ -5,7 +5,7 @@ package AssociativeArray;
 import java.io.PrintWriter;
 import java.util.*;
 
-public class AGC031A {
+public class ColorfulSubsequence {
 
     Scanner sc = new Scanner(System.in);
 
@@ -20,7 +20,7 @@ public class AGC031A {
     PrintWriter out = new PrintWriter(System.out);
 
     public static void main(String[] args) {
-        new AGC031A().run();
+        new ColorfulSubsequence().run();
     }
 
     void run() {
