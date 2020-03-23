@@ -1,11 +1,11 @@
-package Math;
+package Math.Combination;
 
-public class Combination{
+public class Combi {
     static int n = 7;   //　要素数
     static long MOD = (long)1e9+7;
     static long[] facts;
 
-    public Combination(int n, long MOD){
+    public Combi(int n, long MOD){
         this.n = n;
         this.MOD = MOD;
         facts = new long[n+1];
