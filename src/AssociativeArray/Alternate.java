@@ -5,7 +5,7 @@ package AssociativeArray;
 import java.io.PrintWriter;
 import java.util.*;
 
-public class ARC103C {
+public class Alternate {
 
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
@@ -19,7 +19,7 @@ public class ARC103C {
 
 
     public static void main(String[] args) {
-        new ARC103C().run();
+        new Alternate().run();
     }
 
     void run() {

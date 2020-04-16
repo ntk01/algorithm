@@ -1,4 +1,4 @@
-package Math;
+package Math.ModPow;
 
 public class ModPow {
     long MOD;

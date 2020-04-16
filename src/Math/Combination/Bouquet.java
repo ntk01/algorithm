@@ -1,4 +1,5 @@
 //https://atcoder.jp/contests/abc156/tasks/abc156_d
+package Math.Combination;
 
 import java.util.*;
 
