@@ -1,4 +1,5 @@
 //RMQ (Range Minimum Query)
+package Tree.SegmentTree;
 
 public class SegTree {
 
