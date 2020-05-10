@@ -23,7 +23,8 @@ public class Comb {
         return b%2 == 0 ? x * x % MOD : x * (x*a%MOD) % MOD;
     }
 
-    public long inv(long n){ // 逆元。x^(-1)≡x^(p-2) (MOD p)
+    // 逆元。x^(-1)≡x^(p-2) (MOD p) xとpは互いに素。
+    public long inv(long n){
         return modpow(n, MOD-2);
     }
 
