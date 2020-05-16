@@ -58,11 +58,7 @@ public class Alternate {
 
         TreeMap<Integer, Integer> newmapEven = sortMapByValue(mapEven);
         TreeMap<Integer, Integer> newmapOdd = sortMapByValue(mapOdd);
-
-//        out.println(newmapEven);
-//        out.println(newmapOdd);
-
-
+        
 
         Map.Entry<Integer, Integer> entryEven = newmapEven.entrySet().iterator().next();
         Map.Entry<Integer, Integer> entryOdd = newmapOdd.entrySet().iterator().next();
@@ -92,8 +88,7 @@ public class Alternate {
 
     public TreeMap<Integer, Integer> sortMapByValue(HashMap<Integer, Integer> map){
         Comparator<Integer> comparator = new ValueComparator(map);
-        //TreeMap is a map sorted by its keys.
-        //The comparator is used to sort the TreeMap by keys.
+
         TreeMap<Integer, Integer> result = new TreeMap<Integer, Integer>(comparator);
         result.putAll(map);
         return result;
