@@ -1,8 +1,6 @@
 //AtCoder Beginner Contest157-D
 //https://atcoder.jp/contests/abc157/tasks/abc157_d
-
-
-package Tree;
+package Tree.UnionFind;
 
 import java.util.*;
 

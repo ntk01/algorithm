@@ -1,4 +1,4 @@
-package Graph;
+package Graph.Floyd;
 
 import java.util.Scanner;
 
