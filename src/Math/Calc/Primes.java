@@ -54,7 +54,7 @@ class Primes {
 
         for (int i=2; i<=sqrt; i++) {
             if (!flag[i]) {
-                for (int j=i*i; j<=n; j+=i) {
+                for (int j=i*2; j<=n; j+=i) {
                     flag[j] = true;
                 }
             }
