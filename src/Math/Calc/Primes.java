@@ -44,7 +44,7 @@ class Primes {
     }
 
     /**
-     * n以下の素因数列挙
+     * n以下の素数列挙
      * @param n
      * @return
      */
@@ -69,7 +69,7 @@ class Primes {
     }
 
     /**
-     * n以下の素因数列挙
+     * n以下の素数列挙
      * @param n
      * @return
      */
