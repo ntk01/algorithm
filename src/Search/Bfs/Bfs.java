@@ -1,4 +1,4 @@
-package Graph;
+package Search.Bfs;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Scanner;
 
 
-public class BFS{
+public class Bfs{
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] d = new int[n];
@@ -15,7 +15,7 @@ public class BFS{
 
     public static void main(String[] args){
 
-        new BFS().run();
+        new Bfs().run();
     }
 
     void run() {
