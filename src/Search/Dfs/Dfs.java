@@ -1,8 +1,8 @@
-package Graph.DFS;
+package Search.Dfs;
 
 import java.util.*;
 
-public class DFS {
+public class Dfs {
 
     static Scanner sc = new Scanner(System.in);
     static int n = sc.nextInt();

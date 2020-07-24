@@ -1,6 +1,6 @@
 //https://atcoder.jp/contests/agc043/tasks/agc043_a
 
-package Graph.DFS;
+package Search.Dfs;
 
 import java.io.PrintWriter;
 import java.util.*;

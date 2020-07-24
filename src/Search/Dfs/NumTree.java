@@ -29,7 +29,7 @@
 //abcc
 //abcd
 
-package Graph.DFS;
+package Search.Dfs;
 
 import java.util.*;
 

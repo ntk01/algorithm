@@ -1,11 +1,11 @@
 // https://codeforces.com/contest/1337/problem/C
 // postorderで部分木の要素数をカウント
 
-package Graph.DFS;
+package Search.Dfs;
 
 import java.util.*;
 
-public class  Linova{
+public class Linova{
 
     Scanner sc = new Scanner(System.in);
 
