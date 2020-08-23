@@ -45,6 +45,7 @@ class Primes {
 
     /**
      * n以下の素数列挙
+     * O(NloglogN)
      * @param n
      * @return
      */
