@@ -6,10 +6,10 @@ public class SegTree {
     int n = 1;
     int[] val;
 
-//    public SegTree(int n) {
-//        while (this.n < n) this.n *= 2;
-//        val = new int[2*this.n-1];
-//    }
+    public SegTree(int n) {
+        while (this.n < n) this.n *= 2;
+        val = new int[2*this.n-1];
+    }
 
     void init(int n) {
         while (this.n < n) this.n *= 2;
@@ -29,6 +29,7 @@ public class SegTree {
         }
     }
 
+    // [a, b)
     int query(int a, int b) {
         return query(0, n, a, b, 0);
     }
